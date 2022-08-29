@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&family=Roboto:wght@100&display=swap");
+header {
+  background: linear-gradient(to right, #261e14, black);
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+header h1 {
+  color: #04adbf;
+  padding-top: 30px;
+  font-size: 50px;
+}
+header .nav-link {
+  color: #f24444;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.5s;
+  padding-left: 20px;
+}
+header .nav-link:hover {
+  transform: scale(1.1, 1);
+  background: #f24452;
+  color: #04adbf;
+}
+header .logo {
+  width: 70px;
+  padding-left: 20px;
+  transition: 0.5s;
+}
+header .logo:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  background: linear-gradient(to right, #261e14, black);
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  width: 100%;
+  height: 200px;
+  margin-top: 100px;
+}
+footer div {
+  width: 150px;
+}
+footer .cielo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+footer .cielo a {
+  text-decoration: none;
+  color: #04adbf;
+  text-transform: uppercase;
+}
+footer .cielo a:hover {
+  background: #f24452;
+  color: #04adbf;
+  transform: scale(1.1);
+}
+footer h6 {
+  color: #04adbf;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 15px;
+}
+footer h5 {
+  color: #04adbf;
+  padding-top: 35px;
+  font-size: 20px;
+}
+footer li {
+  list-style: none;
+}
+footer .footer-link {
+  text-decoration: none;
+  color: #04adbf;
+}
+footer .footer-link:hover {
+  background: #f24452;
+  color: #04adbf;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background: linear-gradient(to bottom, rgb(59, 58, 58), black);
+}
+
+section h2 {
+  text-align: center;
+  background: #f24452;
+  color: #04adbf;
+  padding: 10px;
+  margin-top: 50px;
+  font-size: 50px;
+  border: 2px solid black;
+}
+section p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: black;
+  margin: 20px;
+}
+
+.trabajos {
+  padding: 30px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.trabajos h3 {
+  color: black;
+  border: 2px solid #04adbf;
+  padding: 30px;
+  font-size: 40px;
+  margin: 20px;
+  background: #f24452;
+  text-transform: uppercase;
+}
+.trabajos a {
+  color: black;
+  border: 2px solid #04adbf;
+  padding: 30px;
+  font-size: 40px;
+  margin: 20px;
+  background: #f24452;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.trabajos a:hover {
+  background: #04adbf;
+  color: #f24452;
+  border: 2px solid #f24452;
+  transform: scale(1.2);
+}
+
+.section {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 50px;
+}
+.section .card {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: auto;
+  margin: 30px 50px;
+  border-radius: 10px;
+  background-color: #0d6973;
+}
+.section .card-img-top {
+  width: 50%;
+  margin: 20px 10px;
+}
+.section .card-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.section .card-text {
+  line-height: 1.5;
+  font-size: 2;
+}
+
+.img-servicios {
+  width: 350px;
+  height: 280px;
+}
+
+.box {
+  border: 1px solid black;
+  padding: 10px 0;
+  margin: 20px 0;
+  background: #0d6973;
+  border-radius: 10px;
+}
+.box h3 {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px;
+}
+.box p {
+  line-height: 1.5;
+  font-size: 2;
+}
+
+.map-img {
+  width: 390px;
+  padding: 30px 0;
+}
+
+.ubicacion-text {
+  margin: auto;
+  padding: 30px;
+  background-color: #0d6973;
+  width: 350px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.ubicacion-text h3 {
+  font-size: 30px;
+}
+.ubicacion-text p {
+  font-size: 20px;
+}
+
+.map-img-ruta {
+  width: 150px;
+  padding: 20px;
+}
+.map-img-ruta:hover {
+  transform: scale(1.2);
+}
+
+.cuestionario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.forms {
+  display: flex;
+  flex-flow: column;
+  padding: 10px;
+  width: 380px;
+}
+
+.forms label {
+  text-transform: uppercase;
+  margin: 10px;
+  padding: 10px;
+  font-weight: bold;
+  background-color: #f24452;
+  font-size: 20px;
+}
+
+.info {
+  background-color: #0d6973;
+  width: 370px;
+  margin: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 20px;
+}
+.info h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.info h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.info p {
+  font-size: 15px;
+}
+
+.botones input {
+  margin: 10px 30px;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 7px;
+  background: #f24452;
+  color: #04adbf;
+  border: 2px solid #04adbf;
+}
+.botones input:hover {
+  background: #04adbf;
+  color: #f24452;
+  border: 2px solid #f24452;
+  transform: scale(1.2, 1.1);
+}/*# sourceMappingURL=estilo.css.map */

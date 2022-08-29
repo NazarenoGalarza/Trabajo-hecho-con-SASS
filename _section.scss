@@ -1,0 +1,215 @@
+section {
+  h2 {
+    text-align: center;
+    background: $background-titulos;
+    color: $color-titulos;
+    padding: 10px;
+    margin-top: 50px;
+    font-size: $font5;
+    border: 2px solid black;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: black;
+    margin: 20px;
+  }
+}
+
+//TODO INICIO
+
+.trabajos {
+  padding: 30px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+  h3 {
+    color: $color-subtitulos;
+    border: 2px solid #04adbf;
+    padding: 30px;
+    font-size: $font4;
+    margin: 20px;
+    background: $background-titulos;
+    text-transform: uppercase;
+  }
+
+  a {
+    color: $color-subtitulos;
+    border: $border-botton1;
+    padding: 30px;
+    font-size: $font4;
+    margin: 20px;
+    background: $background-titulos;
+    text-decoration: none;
+    transition: 0.5s;
+
+    &:hover {
+      background: $background-buttons2;
+      color: $boton2;
+      border: $border-bottom2;
+      transform: scale(1.2);
+    }
+  }
+}
+
+//TODO NOSOTROS
+
+.section {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 50px;
+
+  .card {
+    border: $border-cards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    margin: 30px 50px;
+    border-radius: 10px;
+    background-color: $background-cards;
+  }
+
+  .card-img-top {
+    width: 50%;
+    margin: 20px 10px;
+  }
+
+  .card-title {
+    font-size: $font3;
+    font-weight: bold;
+  }
+
+  .card-text {
+    line-height: 1.5;
+    font-size: 2;
+  }
+}
+
+//TODO SERVICIOS
+
+.img-servicios {
+  width: 350px;
+  height: 280px;
+}
+
+.box {
+  border: $border-cards;
+  padding: 10px 0;
+  margin: 20px 0;
+  background: $background-cards;
+  border-radius: 10px;
+
+  h3 {
+    font-size: $font3;
+    font-weight: bold;
+    padding: 20px;
+  }
+
+  p {
+    line-height: 1.5;
+    font-size: 2;
+  }
+}
+
+//TODO UBICACION
+
+.map-img {
+  width: 390px;
+  padding: 30px 0;
+}
+
+.ubicacion-text {
+  margin: auto;
+  padding: 30px;
+  background-color: $background-cards;
+  width: 350px;
+  border-radius: 10px;
+  border: $border-cards;
+
+  h3 {
+    font-size: $font3;
+  }
+
+  p {
+    font-size: $font2;
+  }
+}
+
+.map-img-ruta {
+  width: 150px;
+  padding: 20px;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+//TODO CONTACTO
+
+.cuestionario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.forms {
+  display: flex;
+  flex-flow: column;
+  padding: 10px;
+  width: 380px;
+}
+
+.forms label {
+  text-transform: uppercase;
+  margin: 10px;
+  padding: 10px;
+  font-weight: bold;
+  background-color: $background-titulos;
+  font-size: $font2;
+}
+
+.info {
+  background-color: $background-cards;
+  width: 370px;
+  margin: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  border: $border-cards;
+  padding: 20px;
+
+  h3 {
+    font-size: $font3;
+    font-weight: bold;
+  }
+
+  h4 {
+    font-size: $font2;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: $font1;
+  }
+}
+
+.botones input {
+  margin: 10px 30px;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 7px;
+  background: $background-buttons;
+  color: $boton1;
+  border: $border-botton1;
+
+  &:hover {
+    background: $background-buttons2;
+    color: $boton2;
+    border: $border-bottom2;
+    transform: scale(1.2, 1.1);
+  }
+}
